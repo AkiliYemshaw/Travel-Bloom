@@ -14,7 +14,6 @@
                 <li><a href="./Travel.html">Home</a></li>
                 <li><a href="./AboutUs.html">About Us</a></li>
                 <li><a href="./ContactUs.html">Contact Us</a></li>
-                <li><input type="text" placeholder="  Search place..." id="searchInput"/><button type="submit" id="searchBtn">Search</button><button type="submit" id="btnClear">Clear</button></li>
             </ul>
         </nav>
 
@@ -29,19 +28,26 @@
             </ul>
         </div>
 
-        <div class="home-content">
-            <div>
-                <h1 class="main-text">EXPLORE<br>DREAM<br>DESTINATION</h1>
-            </div>
-            <div>
-                <p class="home-p">We encourage exploration of unfamiliar territories, embracing diverse culutures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
-                <button class="home-b">BOOK NOW</button>
-            </div>
+        <div class="c"> 
+        <div class="contact-t">
+            <h1>CONTACT US</h1>
         </div>
 
-        <div class="hide" id="result"></div>
-
-        <script src="./Travel.js"></script>
+        <div class="form-div">
+            <form action="/send-email" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Write your name here" required>
+              <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Write your email here" required>
+              <br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+              <br>
+                <button type="submit" class="form-button">Send</button>
+              </form>
+        </div>
+    </div>
     </body>
 </html>
 

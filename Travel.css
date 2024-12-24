@@ -1,0 +1,200 @@
+body {
+    background-image: url('./Images-Icons/406045.jpg');
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  opacity: 75%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li {
+  margin-right: 20px;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  color: #ccc;
+}
+img {
+    width: 50px;
+    border-radius: 20px;
+}
+input {
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+button {
+    border-radius: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.home-content {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+.main-text {
+    font-size: 50px;
+}
+.home-p {
+    width: 300px;
+    font-size: 18px;
+}
+.home-b {
+    opacity: 80%;
+}
+.icons ul {
+    list-style-type: none;
+    padding-left: 5px;
+    position: fixed;
+    top: 45%;
+}
+.vertical-line {
+    width: 1px;
+    height: 230px;
+    margin-left: 30px;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+}
+.about-content {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #fff;
+}
+.about-title {
+    font-size: 25px;
+}
+.team {
+    position: absolute;
+    top: 100%;
+}
+.team-text {
+    font-size: 40px;
+}
+.about-p {
+    background-color: black;
+    opacity: 70%;
+    padding: 2px 15px;
+    margin-right: 50px;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.personnel {
+    background: black;
+    opacity: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20%;
+    border-radius: 10px;;
+}
+.p-h3 {
+    background: rgb(47, 47, 116);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.p-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contact-t {
+    font-size: 20px;
+    margin-right: 30px;
+}
+.c {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 20%;
+}
+form {
+    display: column;
+    background: black;
+    opacity: 80%;
+    padding: 80px 120px;
+}
+form input {
+    margin-bottom: 30px;
+    background: black;
+    opacity: 70%;
+    width: 100%;
+}
+form textarea {
+    background: black;
+    opacity: 70%
+}
+.form-button {
+    margin-top: 10px;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.dest-card {
+    background-color: white;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 7px rgba(255,255,255,0.3);
+    width: 50%;
+    margin: 2rem;
+    
+}
+
+.dest-card h3 {
+    color: black;
+    padding: 1rem 0.5rem;
+}
+
+.dest-card p {
+    color: grey;
+    font-size: small !important;
+    padding: 0 !important;
+    margin: 0.5rem;
+}
+
+.dest-card button {
+    padding: 0.5rem 1rem !important;
+    margin: 0.5rem;
+}
+#result img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: inherit;
+}
